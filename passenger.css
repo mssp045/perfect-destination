@@ -1,0 +1,202 @@
+body
+ {
+    background-image: url('img/bus1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+ }
+
+
+@media only screen and (max-width:768px)
+{
+    body
+    {
+        background-image:url('img/bus3.jpg');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width:100%;
+        height: 900px;
+    }
+}
+
+ * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+
+   }
+
+
+/*navbar*/
+.navbar {
+            font-size: 18px;
+            background-image: linear-gradient(260deg, #2376ae 0%, #c16ecf 100%);
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            padding-bottom: 10px;
+            font-family: arial;
+        }
+
+        .main-nav {
+            list-style-type: none;
+            display: none;
+        }
+
+        .nav-links,
+        .logo {
+            text-decoration: none;
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        .main-nav li {
+            text-align: center;
+            margin: 15px auto;
+        }
+
+        .logo {
+            display: inline-block;
+            font-size: 22px;
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+
+        .navbar-toggle {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            cursor: pointer;
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 24px;
+        }
+
+        .active {
+            display: block;
+            z-index: 100;
+        }
+
+        @media screen and (min-width: 768px) {
+            .navbar {
+                display: flex;
+                justify-content: space-between;
+                padding-bottom: 0;
+                height: 70px;
+                align-items: center;
+            }
+
+            .main-nav {
+                display: flex;
+                margin-right: 30px;
+                flex-direction: row;
+                justify-content: flex-end;
+            }
+
+            .main-nav li {
+                margin: 0;
+            }
+
+            .nav-links {
+                margin-left: 40px;
+            }
+
+            .logo {
+                margin-top: 0;
+            }
+
+            .navbar-toggle {
+                display: none;
+            }
+
+            .logo:hover,
+            .nav-links:hover {
+                color: rgba(255, 255, 255, 1);
+            }
+        }
+.rect
+{
+    width: 500px;
+    height: 650px;
+    background:rgba(255,255,255,0.8);
+    top:55%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 10px 30px;
+}
+.b1
+{
+    padding-top: 1%;
+    font-family: 'Adamina';
+}
+input[type=text]
+{
+    background-color: #f2f2f2;
+    height: 30px;
+    width: 60%;
+    color: #191a1e;
+    border-color: black;
+    border-width: 1px;
+    font-size: 16px;
+    font-weight: 400;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 5px;
+    padding: 0px 4px;
+    margin-top: 4px;
+    margin-bottom: 15px;
+}
+input[type=number]
+{
+    background-color: #f2f2f2;
+    height: 30px;
+    width: 23%;
+    color: #191a1e;
+    border-color: black;
+    border-width: 1px;
+    font-size: 16px;
+    font-weight: 400;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 5px;
+    padding-left: 4px;
+    margin-top: 4px;
+    margin-bottom: 20px;
+}
+
+.hr
+{
+    margin-top: 20px;
+    border: 2px black dashed;
+}
+input[type=email]
+{
+    background-color: #f2f2f2;
+    height: 30px;
+    width: 60%;
+    color: #191a1e;
+    border-color: black;
+    border-width: 1px;
+    font-size: 16px;
+    font-weight: 400;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 5px;
+    padding: 0px 4px;
+    margin-top: 4px;
+    margin-bottom: 15px;
+}
+.flexbox
+{
+    display: flex;
+}
+.submit-btn {
+    margin-top: 20px;
+    color: #fff;
+    background-color: green;
+    font-weight: 400;
+    height: 45px;
+    font-size: 18px;
+    border: none;
+    width: 50%;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
